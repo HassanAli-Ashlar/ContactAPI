@@ -1,7 +1,9 @@
 - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "every 2 minutes"
+      interval: "every 1 hour"
+      time: "01:00"
+    target-branch: "development" 
     labels:
       - "dependencies"
     allow:
