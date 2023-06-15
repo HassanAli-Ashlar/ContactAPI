@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "all"
-    directory: "/"
+    directory: "../"
     schedule:
       interval: "every 1 minute"
     target-branch: "development"
