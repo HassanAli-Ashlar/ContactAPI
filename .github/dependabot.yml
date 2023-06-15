@@ -1,0 +1,15 @@
+- package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "every 2 minutes"
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-type: "direct"
+        update-type: "semver:patch"
+      - dependency-type: "direct"
+        update-type: "semver:minor"
+      - dependency-type: "direct"
+        update-type: "semver:major"
+      - dependency-type: "all"
+        update-type: "security"
