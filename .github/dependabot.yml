@@ -1,4 +1,4 @@
-- package-ecosystem: "npm"
+ package-ecosystem: "npm"
   directory: "/"
   schedule:
     interval: "every 2 minutes"
